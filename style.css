@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+
+@import "style/reset.css";
+@import "style/navs-style.css";
+@import "style/pag1_apresentacao.css";
+@import "style/pag2_apelido.css";
+@import "style/pag3_ch_sobremim.css";
+@import "style/pag4_sobremim.css";
+@import "style/pag5_projetos.css";
+@import "style/pag6_contatos.css";
+@import "style/pag7_agrad.css";
+@import "style/pag8_creditos.css";
+@import "style/pag9_btntopo.css";
+
+:root {
+    --cor-background-escuro: #1D1E20;
+    --cor-background-claro: #F2DBBB;
+    --branco: #E5E5E5; 
+    --fonte-principal: "Pangolin", cursive;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 16px;
+}
+
+body {
+    font-family: var(--fonte-principal);
+    background-color: var(--cor-background-escuro);
+}
+
+body.dark-theme {
+    background-color: var(--cor-background-escuro);
+    color: var(--branco);
+}
+
+body.light-theme {
+    background-color: var(--cor-background-claro);
+    color: #000;
+}
+
+.displayNone {
+    display: none;
+}
+
+/* ! */
+img {
+    width: 80px;
+}
+
+/* Estilo Base Paginas: */
+.section-pags {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+/* Animações: */
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(25px);        
+    }
+}
+
+@keyframes bounce2 {
+    0% {
+        transform: translateX(10px);
+    }
+
+    100% {
+        transform: translateX(-10px);      
+    }
+}
+
+@keyframes chacoalho {
+    0% {
+        transform: rotate(-20deg);
+    }
+
+    100% {
+        transform: rotate(20deg);
+    }
+}

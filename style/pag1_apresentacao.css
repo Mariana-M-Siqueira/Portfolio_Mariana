@@ -1,0 +1,58 @@
+/* Pag 01 - Apresentação */
+.section__apresentacao {
+    position: relative;
+    top: -3.5em;
+}
+
+.section__apresentação-chamada div {
+    display: flex;
+    align-items: end;
+    margin-bottom: 8px;
+}
+
+.section__apresentação-chamada div img {
+    width: 85px;
+    animation: chacoalho 1s ease-in-out infinite alternate;
+}
+
+.section__apresentação-chamada p:last-child{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-right: .5em;
+}
+
+.section__apresentação__nome {
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section__apresentação__nome img {
+    width: 250px;
+}
+
+.section__apresentação__nome img:nth-child(2) {
+    width: 180px;
+} 
+
+.section__apresentação__apontadores1 {
+    position: absolute;
+    bottom: 18%;
+    left: 40%;
+}  
+.section__apresentação__apontadores2 {
+    position: absolute;
+    bottom: 14%;
+    right: 43%;
+}
+
+.section__apresentação__apontadores1 img {
+    width: 35px;
+    animation: bounce ease-in .8s .2s alternate infinite;
+}
+.section__apresentação__apontadores2 img {
+    width: 30px;
+    animation: bounce ease-in .8s alternate infinite;
+}
