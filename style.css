@@ -74,16 +74,6 @@ img {
     }
 }
 
-@keyframes bounce2 {
-    0% {
-        transform: translateX(10px);
-    }
-
-    100% {
-        transform: translateX(-10px);      
-    }
-}
-
 @keyframes chacoalho {
     0% {
         transform: rotate(-20deg);

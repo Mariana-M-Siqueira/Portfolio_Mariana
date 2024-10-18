@@ -1,0 +1,40 @@
+.section__apelido {
+    text-align: center;
+    position: relative;
+}
+
+.section__apelido__chamada {
+    line-height: 1.1em;
+    position: relative;
+}
+
+.section__apelido__chamada img {
+    width: 300px;
+}
+
+.section__apelido__icones {
+    position: absolute;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.section__apelido__icones img {
+    width: 100px;
+}
+
+.section__apelido__icones-superior {
+    top: 15%;
+}
+
+.section__apelido__icones-inferior {
+    bottom: 10%;
+    flex-wrap: nowrap;
+}
+
+.section__apelido__icones-inferior img:nth-child(1) {
+    flex-grow: 0.3;
+}
+.section__apelido__icones-inferior img:nth-child(2) {
+    flex-shrink: 1 ;
+}
