@@ -1,6 +1,7 @@
 .section__apelido {
     text-align: center;
     position: relative;
+    top: -50px;
 }
 
 .section__apelido__chamada {
@@ -28,13 +29,13 @@
 }
 
 .section__apelido__icones-inferior {
-    bottom: 10%;
+    bottom: 2.3em;
     flex-wrap: nowrap;
 }
 
 .section__apelido__icones-inferior img:nth-child(1) {
-    flex-grow: 0.3;
+   
 }
 .section__apelido__icones-inferior img:nth-child(2) {
-    flex-shrink: 1 ;
+    
 }
