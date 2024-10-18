@@ -30,7 +30,6 @@
 
 .section__apelido__icones-inferior {
     bottom: 2.3em;
-    flex-wrap: nowrap;
 }
 
 .section__apelido__icones-inferior img:nth-child(1) {
