@@ -48,7 +48,27 @@
     margin: .5em;
 }
 
-@media (min-width: 900px) {
+/* @media: */
+
+@media (min-width: 530px) {
+    .nav__superior__img img {
+        top: 20%;
+    }
+}
+
+@media (min-width: 630px) {
+    .nav__superior__img img {
+        top: 5%;
+    }
+}
+
+@media (min-width: 700px) {
+    .nav__superior__img img {
+        top: -15%;
+    }
+}
+
+@media (min-width: 820px) {
     .nav__superior__img img {
         display: none;
     }
