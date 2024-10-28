@@ -47,3 +47,9 @@
     width: 40px;
     margin: .5em;
 }
+
+@media (min-width: 900px) {
+    .nav__superior__img img {
+        display: none;
+    }
+}
