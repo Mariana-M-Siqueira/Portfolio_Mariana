@@ -14,7 +14,6 @@
 
 :root {
     --cor-background-escuro: #1D1E20;
-    --cor-background-claro: #F2DBBB;
     --branco: #E5E5E5; 
     --fonte-principal: "Pangolin", cursive;
 }
@@ -31,16 +30,6 @@ html {
 body {
     font-family: var(--fonte-principal);
     background-color: var(--cor-background-escuro);
-}
-
-body.dark-theme {
-    background-color: var(--cor-background-escuro);
-    color: var(--branco);
-}
-
-body.light-theme {
-    background-color: var(--cor-background-claro);
-    color: #000;
 }
 
 .displayNone {
