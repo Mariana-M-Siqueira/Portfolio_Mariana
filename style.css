@@ -24,12 +24,14 @@
 
 html {
     scroll-behavior: smooth;
+    width: 100%;
     font-size: 16px;
 }
 
 body {
     font-family: var(--fonte-principal);
     background-color: var(--cor-background-escuro);
+    color: var(--branco);
 }
 
 .displayNone {

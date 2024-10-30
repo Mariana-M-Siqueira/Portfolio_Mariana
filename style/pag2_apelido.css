@@ -5,36 +5,28 @@
 }
 
 .section__apelido__chamada {
-    line-height: 1.1em;
-    position: relative;
+    line-height: 1.2em;
 }
 
 .section__apelido__chamada img {
     width: 300px;
 }
 
-.section__apelido__icones {
-    position: absolute;
-    width: 100vw;
-    display: flex;
-    justify-content: space-around;
-}
-
 .section__apelido__icones img {
-    width: 100px;
+    position: absolute;
 }
 
-.section__apelido__icones-superior {
-    top: 15%;
+.section__apelido__icones img:nth-child(1){
+    top: 10%;
+    left: 10%;
 }
 
-.section__apelido__icones-inferior {
-    bottom: 2.3em;
+.section__apelido__icones img:nth-child(2){
+    top: 20%;
+    right: 10%;
 }
 
-.section__apelido__icones-inferior img:nth-child(1) {
-   
-}
-.section__apelido__icones-inferior img:nth-child(2) {
-    
+.section__apelido__icones img:nth-child(3){
+    bottom: 15%;
+    left: 25%;
 }
