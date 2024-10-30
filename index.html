@@ -9,10 +9,11 @@
         content="Portfólio pessoal e profissional criado para divulgar trabalhos e projetos na área de Desenvolvimento Web e Design Web.">
     <meta name="robots" content="index, follow">
     <title>Mariana M. S. - Portfólio Profissional</title>
+    <link rel="stylesheet" href="style/locomotive-scroll.css">
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body class="dark-theme">
+<body>
     <!-- CABEÇALHO: -->
     <header>
 
@@ -58,9 +59,9 @@
     <!-- FIM DE CABEÇALHO -->
 
     <!-- CONTEUDO PRINCIPAL: -->
-    <main>
+    <main data-scroll-container>
         <!-- Pag 01: -->
-        <section class="section__apresentacao section-pags">
+        <section class="section__apresentacao section-pags" data-scroll-section>
             <div class="section__apresentação-chamada">
                 <div>
                     <p>Olá Usuário!</p>
@@ -86,7 +87,7 @@
         </section>
 
         <!-- Pag 02: -->
-        <section class="section__apelido section-pags">
+        <section class="section__apelido section-pags" data-scroll-section>
             <div class="section__apelido__icones">
                 <img src="img/gato.gif" alt="">
                 <img src="img/relogio.gif" alt="">
@@ -101,7 +102,7 @@
         </section>
 
         <!-- Pag 03: -->
-        <section class="section__chamada-sobrenos section-pags">
+        <section class="section__chamada-sobrenos section-pags" data-scroll-section>
             <div class="section__chamada-sobrenos__icones-superior"></div>
                 <img src="img/interrogacao1.gif" alt="">
                 <img src="" alt="">
@@ -121,7 +122,7 @@
         </section>
 
         <!-- Pag 04: -->
-        <section class="section__sobremim section-pags">
+        <section class="section__sobremim section-pags" data-scroll-section>
             <div class="section__sobremim__titulo">
                 <img src="img/palavra-sobre.png" alt="Sobre">
                 <img src="img/palavra-mim.png" alt="mim">
@@ -138,7 +139,7 @@
         </section>
 
         <!-- Pag 05: -->
-        <section class="section__projetos section-pags">
+        <section class="section__projetos section-pags" data-scroll-section>
             <div class="section__projetos__titulo">
                 <img src="img/palavra-projetos.png" alt="Projetos">
             </div>
@@ -240,7 +241,7 @@
         </section>
 
         <!-- Pag 06: -->
-        <section class="section__contatos">
+        <section class="section__contatos" data-scroll-section>
             <p class="section__contatos__t1"><img src="img/palavra-gostou.png" alt="gostou"> do</p>
             <p class="section__contatos__t1">meu trabalho <img src="img/interrogacao2.png" alt=""></p>
 
@@ -272,7 +273,7 @@
         </section>
 
         <!-- Pag 07: -->
-        <section class="section__agradecimento section-pags">
+        <section class="section__agradecimento section-pags" data-scroll-section>
             <div class="section__agradecimento__icones-superior">
                 <img src="img/interrogacao-pontinho.png" alt="">
                 <img src="img/interrogacao-pontinho.png" alt="">
@@ -290,7 +291,7 @@
         </section>
 
         <!-- Pag 08: -->
-        <div class="section__creditos section-pags">
+        <section class="section__creditos section-pags" data-scroll-section>
             <div class="section__creditos__titulo">
                 <img src="img/palavra-creditos.png" alt=""Créditos>
             </div>
@@ -305,19 +306,20 @@
             <p>Artes dos Avatares:</p>
             <img src="img/nome-sally.png" alt="sally saikkik">
             <p class="p-creditos">Vinícius Ribeiro</p>
-        </div>
+        </section>
 
         <!-- Pag 09: -->
-        <div class="section__btn-topo section-pags">
+        <footer class="section__btn-topo section-pags" data-scroll-section>
             <button><img src="img/slide-btn.svg" alt="botão de voltar ao topo"></button>
 
             <p>Voltar ao topo <img src="img/hand-final.svg" alt=""></p>
-        </div>
+        </footer>
     </main>
     <!-- FIM DE CONTEUDO PRINCIPAL -->
 
     <!-- JAVASCRIPT: -->
-    <script src="script/navs-btn.js"></script>
+    <script src="script/locomotive-scroll.min.js"></script>
+    <script src="script/animacao.js"></script>
 </body>
 
 </html>
